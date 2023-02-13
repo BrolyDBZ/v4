@@ -1,14 +1,15 @@
 ---
-date: '2016-11-01'
-title: 'Screentime 2.0'
+date: '2022-12-30'
+title: 'ParkyFi'
 github: ''
 external: 'https://starry.com/blog/product/whats-new-screentime-just-got-better-for-parents'
 android: 'https://play.google.com/store/apps/details?id=com.starry.management&hl=en_US'
 tech:
-  - Cordova
-  - Backbone
-  - Marionette
-company: 'Starry'
+  - Python
+  - Flask
+  - MongoDB(Atlas)
+  - Vue
+  - Tailwind CSS
 showInProjects: true
 ---
 

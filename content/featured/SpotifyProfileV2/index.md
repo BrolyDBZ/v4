@@ -1,16 +1,21 @@
 ---
 date: '3'
-title: 'Build a Spotify Connected App'
+title: 'Covid Severity Detection'
 cover: './course-card.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+external: 'https://github.com/BrolyDBZ/covid-severity-detection'
+cta: 'https://github.com/BrolyDBZ/covid-severity-detection'
 tech:
-  - React
-  - Express
-  - Spotify API
-  - Styled Components
+  - Python
+  - Tensorflow
+  - Keras
+  - scikit-learn
+  - Numpy
+  - Pandas
+  - Matplotlib
 ---
 
-Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.
+Designed and developed Machine Learning Classification and Segmentation (U-net) models for detecting and predicting disease severity in Covid-19 patients using pre-trained architecture such as InceptionV3 and Res-Net.
 
-Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed to the internet you can add to your portfolio.
+Calculated the percentage of disease spread in the lungs, and compared the performance and accuracy of the InceptionV3 and Res-net architectures.
+
+On CT-Lungs images trained using various Hyperparameters, model accuracy ranged from 88 to 95%.

@@ -1,13 +1,12 @@
 ---
-date: '2019-07-15'
-title: 'OctoProfile'
+date: '2023-01-15'
+title: 'Distributed MapReduce'
 github: 'https://github.com/bchiang7/octoprofile'
 external: 'https://octoprofile.now.sh'
 tech:
-  - Next.js
-  - Chart.js
-  - GitHub API
+  - Golang
+  - RPC
 showInProjects: true
 ---
 
-A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.
+Implement a worker process that calls application Map and Reduce functions and handles reading and writing files, and a master process that hands out tasks to workers and copes with failed workers.Build something similar to the paper [MapReduce paper](http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf).

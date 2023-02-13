@@ -1,15 +1,22 @@
 ---
-date: '2015-12-01'
-title: 'One Card For All'
-github: ''
-external: 'https://us.mullenlowe.com/work/one-card-for-all/'
+date: '2021-12-01'
+title: 'Covid Severity Detection'
+github: 'https://github.com/BrolyDBZ/covid-severity-detection'
+external: ''
 tech:
-  - HTML
-  - SCSS
-  - JS
-  - jQuery
-company: 'MullenLowe'
+  - Python
+  - Tensorflow
+  - Keras
+  - scikit-learn
+  - OpenCV
+  - Numpy
+  - Pandas
+  - Matplotlib
 showInProjects: false
 ---
 
-Interactive holiday site for MullenLowe built around an algorithm that generated a holiday greeting to each and every person on the planet. Check out this short [video](https://us.mullenlowe.com/work/one-card-for-all/) describing the project.
+Designed and developed Machine Learning Classification and Segmentation (U-net) models for detecting and predicting disease severity in Covid-19 patients using pre-trained architecture such as InceptionV3 and Res-Net.
+
+Calculated the percentage of disease spread in the lungs, and compared the performance and accuracy of the InceptionV3 and Res-net architectures.
+
+On CT-Lungs images trained using various Hyperparameters, model accuracy ranged from 88 to 95%.

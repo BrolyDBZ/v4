@@ -1,12 +1,17 @@
 ---
-date: '2016-08-01'
-title: 'React Profile'
-github: 'https://github.com/bchiang7/react-profile'
-external: 'https://bchiang7.github.io/react-profile/'
+date: '2022-10-01'
+title: 'RandomForest Regression'
+github: 'https://github.com/BrolyDBZ/RandomForest-Regression'
+external: ''
 tech:
-  - React
-  - CSS
+  - Python
+  - Numpy
+  - Pandas
+  - sklearn
+  - Matplotlib
 showInProjects: true
 ---
 
-Online version of my 2016 resume made for fun. I was interested in learning React.js, so I found a simple tutorial and it spun into a weekend project.
+Developed a RandomForest Regression (Decision Tree) model to forecast various wages based on the state and profession of employment.
+
+Hyperparameterized the model to increase accuracy on the training and testing datasets.

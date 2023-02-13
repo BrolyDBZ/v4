@@ -1,13 +1,10 @@
 ---
-date: '2018-10-01'
-title: 'Flagship Pioneering'
+date: '2023-01-21'
+title: 'Raft'
 github: ''
 external: 'https://www.flagshippioneering.com/'
 tech:
-  - Craft CMS
-  - Chart.js
-company: 'Upstatement'
+  - Golang
+  - RPC
 showInProjects: false
 ---
-
-A marketing site for an ambitious life sciences venture capital company.
