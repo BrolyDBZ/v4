@@ -16,6 +16,4 @@ tech:
 
 Designed and developed Machine Learning Classification and Segmentation (U-net) models for detecting and predicting disease severity in Covid-19 patients using pre-trained architecture such as InceptionV3 and Res-Net.
 
-Calculated the percentage of disease spread in the lungs, and compared the performance and accuracy of the InceptionV3 and Res-net architectures.
-
-On CT-Lungs images trained using various Hyperparameters, model accuracy ranged from 88 to 95%.
+Compared the performance and accuracy of the different architectures. The model's accuracy ranged from 88 to 95% On CT-Lungs images trained using various hyperparameters.

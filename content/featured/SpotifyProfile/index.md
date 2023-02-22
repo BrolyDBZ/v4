@@ -9,4 +9,6 @@ tech:
   - RPC
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+Implement Raft consensus (a replicated state machine protocol) with a Leader Election, Log Replication, Persistence Storage, and log compaction (Snapshot).
+
+Build something similar to the paper [Extended Raft paper](http://nil.csail.mit.edu/6.824/2022/papers/raft-extended.pdf).
