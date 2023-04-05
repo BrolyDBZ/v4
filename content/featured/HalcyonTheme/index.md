@@ -1,12 +1,14 @@
 ---
 date: '1'
-title: 'Sharded Key/Value Service'
-cover: './halcyon.png'
+title: 'Fault-tolerant Key/Value Service'
+cover: './image.png'
 github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+external: ''
 tech:
   - Golang
   - RPC
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+Build a fault-tolerant key/value storage service using [Raft library](https://github.com/BrolyDBZ/6.824/tree/kvraft/src/raft).
+
+A key/value service is a replicated state machine composed of many key/value servers that use Raft for replication.

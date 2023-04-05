@@ -1,12 +1,13 @@
 ---
-date: '2018-05-14'
-title: 'Engineer'
-company: 'Upstatement'
-location: 'Boston, MA'
-range: 'May 2018 - Present'
-url: 'https://www.upstatement.com/'
+date: '2023-05-14'
+title: 'OpenSource'
+company: 'InfluxDB'
+location: ''
+range: ''
+url: ''
 ---
 
-- Write modern, performant, maintainable code for a diverse array of client and internal projects
-- Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify
-- Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+- Designed and developed an iPadOS application for a data‑intensive CRM system using Vuejs, implemented a modern and user‑friendly interface that streamlined data handling and retrieval, resulting in improved user experience and increased efficiency for the business.
+- Designed and developed RESTful API using the Flask framework and Python, leveraging best practices for optimizing API response time and handling data‑intensive tasks.
+- Reduced API call latency by 300%, and improved performance by grouping data records into several PostgreSQL Views.
+- Tech Stack: Python, Flask, AngularJs, Vue, Postgresql, MongoDB

@@ -1,10 +1,10 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2023-12-21'
+title: 'OpenSource'
+company: 'CockroachDB'
+location: ''
+range: ''
+url: ''
 ---
 
 - Developed and shipped highly interactive web applications for Apple Music using Ember.js
