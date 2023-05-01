@@ -1,8 +1,8 @@
 ---
 date: '2023-01-21'
 title: 'Raft'
-github: ''
-external: 'https://www.flagshippioneering.com/'
+github: 'https://github.com/BrolyDBZ/6.824/tree/kvraft/src/raft'
+external: ''
 tech:
   - Golang
   - RPC

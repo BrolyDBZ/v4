@@ -1,8 +1,8 @@
 ---
 date: '2023-01-15'
 title: 'Distributed MapReduce'
-github: 'https://github.com/bchiang7/octoprofile'
-external: 'https://octoprofile.now.sh'
+github: 'https://github.com/BrolyDBZ/6.824/tree/mr/src/mr'
+external: 'https://github.com/BrolyDBZ/6.824/tree/mr/src/mr'
 tech:
   - Golang
   - RPC

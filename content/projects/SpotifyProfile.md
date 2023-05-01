@@ -2,7 +2,7 @@
 date: '2022-09-18'
 title: 'twitter'
 github: 'https://github.com/BrolyDBZ/twitter'
-external: ''
+external: 'https://github.com/BrolyDBZ/twitter'
 tech:
   - Python
   - Flask

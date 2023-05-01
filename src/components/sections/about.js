@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { StaticImage } from 'gatsby-plugin-image';
+// import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
@@ -46,72 +46,72 @@ const StyledText = styled.div`
     }
   }
 `;
-const StyledPic = styled.div`
-  position: relative;
-  max-width: 300px;
+// const StyledPic = styled.div`
+//   position: relative;
+//   max-width: 300px;
 
-  @media (max-width: 768px) {
-    margin: 50px auto 0;
-    width: 70%;
-  }
+//   @media (max-width: 768px) {
+//     margin: 50px auto 0;
+//     width: 70%;
+//   }
 
-  .wrapper {
-    ${({ theme }) => theme.mixins.boxShadow};
-    display: block;
-    position: relative;
-    width: 100%;
-    border-radius: var(--border-radius);
-    background-color: var(--green);
+//   .wrapper {
+//     ${({ theme }) => theme.mixins.boxShadow};
+//     display: block;
+//     position: relative;
+//     width: 100%;
+//     border-radius: var(--border-radius);
+//     background-color: var(--green);
 
-    &:hover,
-    &:focus {
-      outline: 0;
+//     &:hover,
+//     &:focus {
+//       outline: 0;
 
-      &:after {
-        top: 15px;
-        left: 15px;
-      }
+//       &:after {
+//         top: 15px;
+//         left: 15px;
+//       }
 
-      .img {
-        filter: none;
-        mix-blend-mode: normal;
-      }
-    }
+//       .img {
+//         filter: none;
+//         mix-blend-mode: normal;
+//       }
+//     }
 
-    .img {
-      position: relative;
-      border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
-      transition: var(--transition);
-    }
+//     .img {
+//       position: relative;
+//       border-radius: var(--border-radius);
+//       mix-blend-mode: multiply;
+//       filter: grayscale(100%) contrast(1);
+//       transition: var(--transition);
+//     }
 
-    &:before,
-    &:after {
-      content: '';
-      display: block;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      border-radius: var(--border-radius);
-      transition: var(--transition);
-    }
+//     &:before,
+//     &:after {
+//       content: '';
+//       display: block;
+//       position: absolute;
+//       width: 100%;
+//       height: 100%;
+//       border-radius: var(--border-radius);
+//       transition: var(--transition);
+//     }
 
-    &:before {
-      top: 0;
-      left: 0;
-      background-color: var(--navy);
-      mix-blend-mode: screen;
-    }
+//     &:before {
+//       top: 0;
+//       left: 0;
+//       background-color: var(--navy);
+//       mix-blend-mode: screen;
+//     }
 
-    &:after {
-      border: 2px solid var(--green);
-      top: 20px;
-      left: 20px;
-      z-index: -1;
-    }
-  }
-`;
+//     &:after {
+//       border: 2px solid var(--green);
+//       top: 20px;
+//       left: 20px;
+//       z-index: -1;
+//     }
+//   }
+// `;
 
 const About = () => {
   const revealContainer = useRef(null);
@@ -127,12 +127,16 @@ const About = () => {
 
   const skills = [
     'Python',
-    'Golang',
     'Flask',
+    'Golang',
     'Django',
+    'Javascript',
     'AngularJs',
+    'Tensorflow',
     'Vue',
+    'keras',
     'Postgresql',
+    'C/C++',
     'MongoDB',
   ];
 
@@ -144,30 +148,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Sanket and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Sanket and I am an experienced fullstack software development
+              engineer with a strong interest in backend and distributed systems.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              I am a highly accomplished competitive programmer, having solved 1000+ challenging
+              questions and with contest rating of 1750 in{' '}
+              <a href="https://leetcode.com/broly_/">Leetcode</a> contests.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              I'm also skilled in distributed systems, having implemented{' '}
+              <a href="https://github.com/BrolyDBZ/6.824/tree/mr/src/mr">MapReduce</a> ,{' '}
+              <a href="https://github.com/BrolyDBZ/6.824/tree/kvraft/src/raft">Raft</a> ,{' '}
+              <a href="https://github.com/BrolyDBZ/6.824/tree/kvraft/src/kvraft">
+                Fault-tolerant Key/Value Service
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              to build consistence, scalable and fault-tolerant Distributed systems.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -178,7 +176,7 @@ const About = () => {
           </ul>
         </StyledText>
 
-        <StyledPic>
+        {/* <StyledPic>
           <div className="wrapper">
             <StaticImage
               className="img"
@@ -189,7 +187,7 @@ const About = () => {
               alt="Headshot"
             />
           </div>
-        </StyledPic>
+        </StyledPic> */}
       </div>
     </StyledAboutSection>
   );

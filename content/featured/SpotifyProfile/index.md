@@ -2,8 +2,8 @@
 date: '2'
 title: 'Raft'
 cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+github: 'https://github.com/BrolyDBZ/6.824/tree/kvraft/src/raft'
+external: 'https://github.com/BrolyDBZ/6.824/tree/kvraft/src/raft'
 tech:
   - Golang
   - RPC

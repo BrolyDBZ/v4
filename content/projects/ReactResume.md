@@ -2,7 +2,7 @@
 date: '2022-10-01'
 title: 'RandomForest Regression'
 github: 'https://github.com/BrolyDBZ/RandomForest-Regression'
-external: ''
+external: 'https://github.com/BrolyDBZ/RandomForest-Regression'
 tech:
   - Python
   - Numpy

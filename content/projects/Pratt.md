@@ -1,8 +1,8 @@
 ---
 date: '2023-02-08'
 title: 'Fault-tolerant Key/Value Service'
-github: ''
-external: 'https://www.pratt.edu/'
+github: 'https://github.com/BrolyDBZ/6.824/tree/kvraft/src/kvraft'
+external: ''
 tech:
   - Golang
   - RPC
