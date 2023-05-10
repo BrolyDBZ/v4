@@ -4,8 +4,8 @@ module.exports = {
   siteMetadata: {
     title: 'Sanket Bondre',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+      'Sanket Bondre is a skilled software professional with expertise in building and developing large-scale, highly available and fault-tolerant systems.',
+    siteUrl: 'https://sanketb.netlify.app/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
   },
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Sanket Bondre',
+        short_name: 'Sanket Bondre',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
