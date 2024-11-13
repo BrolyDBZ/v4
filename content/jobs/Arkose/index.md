@@ -4,7 +4,7 @@ title: 'Software Development Engineer'
 company: 'Arkose Labs'
 location: 'Pune, India'
 range: 'Sept 2023 - Present'
-url: ''
+url: 'https://www.arkoselabs.com/'
 ---
 
 - Developed and managed champion/challenger data pipelines using Airflow DAGs, processing∼6 billion sessions every 4
