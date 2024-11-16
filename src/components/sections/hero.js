@@ -66,7 +66,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm a skilled software professional with expertise in building and developing large-scale,
+        I'm a skilled software professional with expertise in desinging and developing large-scale,
         highly available and fault-tolerant systems.
         {/* Currently, I’m focused on building accessible, human-centered products
         at{' '}

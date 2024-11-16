@@ -126,18 +126,18 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Python',
-    'Flask',
     'Golang',
-    'Django',
+    'Argo CD',
+    'Python',
+    'Splunk',
+    'AWS',
+    'Apache Airflow',
+    'Kubernetes',
+    'Prometheus',
+    'Terraform',
+    'Athena/Dynamo',
     'Javascript',
-    'AngularJs',
-    'Tensorflow',
-    'Vue',
-    'keras',
-    'Postgresql',
-    'C/C++',
-    'MongoDB',
+    'ScyllaDB',
   ];
 
   return (
@@ -148,8 +148,8 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Sanket and I am an experienced fullstack software development
-              engineer with a strong interest in backend and distributed systems.
+              Hello! My name is Sanket and I am an experienced software development engineer with a
+              strong interest in backend and distributed systems.
             </p>
 
             <p>
