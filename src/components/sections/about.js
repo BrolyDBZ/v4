@@ -153,9 +153,11 @@ const About = () => {
             </p>
 
             <p>
-              I am a highly accomplished competitive programmer, having solved 1000+ challenging
-              questions and with contest rating of 1750 in{' '}
-              <a href="https://leetcode.com/broly_/">Leetcode</a> contests.
+              I'm a highly accomplished developer with a proven track record of designing scalable
+              features and delivering impactful solutions. My strong research abilities and
+              reliability have made me a trusted member of my team. I thrive on tackling challenging
+              problems, even when it means learning new skills or exploring unfamiliar domains. I
+              also excel in competitive programming, demonstrating sharp problem-solving skills.
             </p>
 
             <p>
